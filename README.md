@@ -2,4 +2,4 @@
 
 #In development#
 
-This repository contains only the scripts used in the game.
+This repository contains the whole Unity project of the game.
