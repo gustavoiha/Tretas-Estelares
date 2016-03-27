@@ -1,6 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/**
+*
+* Observation: currently, this file animates the Sith character and lets the gamer play with it (walk, turn and draw Saber)
+* In the future, this script will be called PlayerBehaviour and will animate the Jedi
+* A whole new script will be made for the Sith, which will move by itself
+*
+**/
+
 public class SithBehaviour : MonoBehaviour {
 
 	public Transform Saber;
