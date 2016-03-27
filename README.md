@@ -2,4 +2,4 @@
 
 #In development#
 
-This repository has only the scripts used in the game.
+This repository contains only the scripts used in the game.
