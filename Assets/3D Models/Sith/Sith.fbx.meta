@@ -1,0 +1,2876 @@
+fileFormatVersion: 2
+guid: 1b2aee59cb7f2bb43b67b143612682bc
+timeCreated: 1459039447
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Body
+    100004: Bone
+    100006: Bone_end
+    100008: Camera
+    100010: Femur.L
+    100012: Femur.R
+    100014: FootRoll.L
+    100016: FootRoll.R
+    100018: Hand.L
+    100020: Hand.R
+    100022: Head
+    100024: Head_end
+    100026: Hemi
+    100028: Hemi.001
+    100030: Humerus.L
+    100032: Humerus.R
+    100034: Leg IK.L
+    100036: Leg IK.L_end
+    100038: Leg IK.R
+    100040: Leg IK.R_end
+    100042: Leg pole targe.L
+    100044: Leg pole targe.L_end
+    100046: Leg pole targe.R
+    100048: Leg pole targe.R_end
+    100050: LegControl.L
+    100052: LegControl.R
+    100054: Lombar
+    100056: LowerFinger.L
+    100058: LowerFinger.L_end
+    100060: LowerFinger.R
+    100062: LowerFinger.R_end
+    100064: LowerFoot.L
+    100066: LowerFoot.L_end
+    100068: LowerFoot.R
+    100070: LowerFoot.R_end
+    100072: LowerThumb.L
+    100074: LowerThumb.L_end
+    100076: LowerThumb.R
+    100078: LowerThumb.R_end
+    100080: Neck
+    100082: Radius.L
+    100084: Radius.R
+    100086: Root
+    100088: //RootNode
+    100090: Thoracic
+    100092: Tibia.L
+    100094: Tibia.L_end
+    100096: Tibia.R
+    100098: Tibia.R_end
+    100100: ToesControl.L
+    100102: ToesControl.L_end
+    100104: ToesControl.R
+    100106: ToesControl.R_end
+    100108: UpperFinger.L
+    100110: UpperFinger.R
+    100112: UpperFoot.L
+    100114: UpperFoot.R
+    100116: UpperThumb.L
+    100118: UpperThumb.R
+    400000: Armature
+    400002: Body
+    400004: Bone
+    400006: Bone_end
+    400008: Camera
+    400010: Femur.L
+    400012: Femur.R
+    400014: FootRoll.L
+    400016: FootRoll.R
+    400018: Hand.L
+    400020: Hand.R
+    400022: Head
+    400024: Head_end
+    400026: Hemi
+    400028: Hemi.001
+    400030: Humerus.L
+    400032: Humerus.R
+    400034: Leg IK.L
+    400036: Leg IK.L_end
+    400038: Leg IK.R
+    400040: Leg IK.R_end
+    400042: Leg pole targe.L
+    400044: Leg pole targe.L_end
+    400046: Leg pole targe.R
+    400048: Leg pole targe.R_end
+    400050: LegControl.L
+    400052: LegControl.R
+    400054: Lombar
+    400056: LowerFinger.L
+    400058: LowerFinger.L_end
+    400060: LowerFinger.R
+    400062: LowerFinger.R_end
+    400064: LowerFoot.L
+    400066: LowerFoot.L_end
+    400068: LowerFoot.R
+    400070: LowerFoot.R_end
+    400072: LowerThumb.L
+    400074: LowerThumb.L_end
+    400076: LowerThumb.R
+    400078: LowerThumb.R_end
+    400080: Neck
+    400082: Radius.L
+    400084: Radius.R
+    400086: Root
+    400088: //RootNode
+    400090: Thoracic
+    400092: Tibia.L
+    400094: Tibia.L_end
+    400096: Tibia.R
+    400098: Tibia.R_end
+    400100: ToesControl.L
+    400102: ToesControl.L_end
+    400104: ToesControl.R
+    400106: ToesControl.R_end
+    400108: UpperFinger.L
+    400110: UpperFinger.R
+    400112: UpperFoot.L
+    400114: UpperFoot.R
+    400116: UpperThumb.L
+    400118: UpperThumb.R
+    4300000: Body
+    7400000: walkingSaber
+    7400002: CubeAction
+    7400004: Armature|Animations
+    7400006: Armature|CubeAction
+    7400008: Armature|CubeAction.001
+    7400010: Armature|drawingSaberJedi
+    7400012: Armature|jumpingBegin
+    7400014: Armature|jumpingBeginSaber
+    7400016: Armature|jumpingHighEnd
+    7400018: Armature|jumpingLowEnd
+    7400020: Armature|jumpingLowEndSaber
+    7400022: Armature|walking
+    7400024: Armature|walking.001
+    7400026: Armature|walkingSaber
+    7400028: Body|Animations
+    7400030: Body|CubeAction
+    7400032: Body|CubeAction.001
+    7400034: Body|walking.001
+    9500000: //RootNode
+    13700000: Body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walkingSaber
+      takeName: walkingSaber
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L/Leg pole targe.L_end
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R/Leg pole targe.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L/Leg IK.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L/ToesControl.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L/LowerFoot.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R/Leg IK.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R/ToesControl.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R/LowerFoot.R_end
+        weight: 1
+      - path: Armature/Root/Lombar
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L/Tibia.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R/Tibia.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L/LowerFinger.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L/LowerThumb.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone/Bone_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R/LowerFinger.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R/LowerThumb.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head/Head_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CubeAction
+      takeName: CubeAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L/Leg pole targe.L_end
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R/Leg pole targe.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L/Leg IK.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L/ToesControl.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L/LowerFoot.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R/Leg IK.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R/ToesControl.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R/LowerFoot.R_end
+        weight: 1
+      - path: Armature/Root/Lombar
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L/Tibia.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R/Tibia.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L/LowerFinger.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L/LowerThumb.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone/Bone_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R/LowerFinger.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R/LowerThumb.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head/Head_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Animations
+      takeName: Armature|Animations
+      firstFrame: 0
+      lastFrame: 223
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L/Leg pole targe.L_end
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R/Leg pole targe.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L/Leg IK.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L/ToesControl.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L/LowerFoot.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R/Leg IK.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R/ToesControl.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R/LowerFoot.R_end
+        weight: 1
+      - path: Armature/Root/Lombar
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L/Tibia.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R/Tibia.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L/LowerFinger.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L/LowerThumb.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone/Bone_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R/LowerFinger.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R/LowerThumb.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head/Head_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|CubeAction
+      takeName: Armature|CubeAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L/Leg pole targe.L_end
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R/Leg pole targe.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L/Leg IK.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L/ToesControl.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L/LowerFoot.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R/Leg IK.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R/ToesControl.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R/LowerFoot.R_end
+        weight: 1
+      - path: Armature/Root/Lombar
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L/Tibia.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R/Tibia.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L/LowerFinger.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L/LowerThumb.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone/Bone_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R/LowerFinger.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R/LowerThumb.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head/Head_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|CubeAction.001
+      takeName: Armature|CubeAction.001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L/Leg pole targe.L_end
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R/Leg pole targe.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L/Leg IK.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L/ToesControl.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L/LowerFoot.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R/Leg IK.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R/ToesControl.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R/LowerFoot.R_end
+        weight: 1
+      - path: Armature/Root/Lombar
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L/Tibia.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R/Tibia.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L/LowerFinger.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L/LowerThumb.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone/Bone_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R/LowerFinger.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R/LowerThumb.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head/Head_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|drawingSaberJedi
+      takeName: Armature|drawingSaberJedi
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L/Leg pole targe.L_end
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R/Leg pole targe.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L/Leg IK.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L/ToesControl.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L/LowerFoot.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R/Leg IK.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R/ToesControl.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R/LowerFoot.R_end
+        weight: 1
+      - path: Armature/Root/Lombar
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L/Tibia.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R/Tibia.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L/LowerFinger.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L/LowerThumb.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone/Bone_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R/LowerFinger.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R/LowerThumb.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head/Head_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|jumpingBegin
+      takeName: Armature|jumpingBegin
+      firstFrame: 0
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L/Leg pole targe.L_end
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R/Leg pole targe.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L/Leg IK.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L/ToesControl.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L/LowerFoot.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R/Leg IK.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R/ToesControl.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R/LowerFoot.R_end
+        weight: 1
+      - path: Armature/Root/Lombar
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L/Tibia.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R/Tibia.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L/LowerFinger.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L/LowerThumb.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone/Bone_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R/LowerFinger.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R/LowerThumb.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head/Head_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|jumpingBeginSaber
+      takeName: Armature|jumpingBeginSaber
+      firstFrame: 0
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L/Leg pole targe.L_end
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R/Leg pole targe.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L/Leg IK.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L/ToesControl.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L/LowerFoot.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R/Leg IK.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R/ToesControl.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R/LowerFoot.R_end
+        weight: 1
+      - path: Armature/Root/Lombar
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L/Tibia.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R/Tibia.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L/LowerFinger.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L/LowerThumb.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone/Bone_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R/LowerFinger.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R/LowerThumb.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head/Head_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|jumpingHighEnd
+      takeName: Armature|jumpingHighEnd
+      firstFrame: 0
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L/Leg pole targe.L_end
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R/Leg pole targe.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L/Leg IK.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L/ToesControl.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L/LowerFoot.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R/Leg IK.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R/ToesControl.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R/LowerFoot.R_end
+        weight: 1
+      - path: Armature/Root/Lombar
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L/Tibia.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R/Tibia.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L/LowerFinger.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L/LowerThumb.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone/Bone_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R/LowerFinger.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R/LowerThumb.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head/Head_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|jumpingLowEnd
+      takeName: Armature|jumpingLowEnd
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L/Leg pole targe.L_end
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R/Leg pole targe.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L/Leg IK.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L/ToesControl.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L/LowerFoot.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R/Leg IK.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R/ToesControl.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R/LowerFoot.R_end
+        weight: 1
+      - path: Armature/Root/Lombar
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L/Tibia.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R/Tibia.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L/LowerFinger.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L/LowerThumb.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone/Bone_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R/LowerFinger.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R/LowerThumb.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head/Head_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|jumpingLowEndSaber
+      takeName: Armature|jumpingLowEndSaber
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L/Leg pole targe.L_end
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R/Leg pole targe.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L/Leg IK.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L/ToesControl.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L/LowerFoot.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R/Leg IK.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R/ToesControl.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R/LowerFoot.R_end
+        weight: 1
+      - path: Armature/Root/Lombar
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L/Tibia.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R/Tibia.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L/LowerFinger.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L/LowerThumb.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone/Bone_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R/LowerFinger.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R/LowerThumb.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head/Head_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|walking
+      takeName: Armature|walking
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L/Leg pole targe.L_end
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R/Leg pole targe.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L/Leg IK.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L/ToesControl.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L/LowerFoot.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R/Leg IK.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R/ToesControl.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R/LowerFoot.R_end
+        weight: 1
+      - path: Armature/Root/Lombar
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L/Tibia.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R/Tibia.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L/LowerFinger.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L/LowerThumb.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone/Bone_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R/LowerFinger.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R/LowerThumb.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head/Head_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|walking.001
+      takeName: Armature|walking.001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L/Leg pole targe.L_end
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R/Leg pole targe.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L/Leg IK.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L/ToesControl.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L/LowerFoot.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R/Leg IK.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R/ToesControl.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R/LowerFoot.R_end
+        weight: 1
+      - path: Armature/Root/Lombar
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L/Tibia.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R/Tibia.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L/LowerFinger.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L/LowerThumb.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone/Bone_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R/LowerFinger.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R/LowerThumb.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head/Head_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|walkingSaber
+      takeName: Armature|walkingSaber
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L/Leg pole targe.L_end
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R/Leg pole targe.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L/Leg IK.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L/ToesControl.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L/LowerFoot.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R/Leg IK.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R/ToesControl.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R/LowerFoot.R_end
+        weight: 1
+      - path: Armature/Root/Lombar
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L/Tibia.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R/Tibia.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L/LowerFinger.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L/LowerThumb.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone/Bone_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R/LowerFinger.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R/LowerThumb.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head/Head_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Body|Animations
+      takeName: Body|Animations
+      firstFrame: 0
+      lastFrame: 223
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L/Leg pole targe.L_end
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R/Leg pole targe.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L/Leg IK.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L/ToesControl.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L/LowerFoot.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R/Leg IK.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R/ToesControl.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R/LowerFoot.R_end
+        weight: 1
+      - path: Armature/Root/Lombar
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L/Tibia.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R/Tibia.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L/LowerFinger.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L/LowerThumb.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone/Bone_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R/LowerFinger.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R/LowerThumb.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head/Head_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Body|CubeAction
+      takeName: Body|CubeAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L/Leg pole targe.L_end
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R/Leg pole targe.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L/Leg IK.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L/ToesControl.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L/LowerFoot.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R/Leg IK.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R/ToesControl.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R/LowerFoot.R_end
+        weight: 1
+      - path: Armature/Root/Lombar
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L/Tibia.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R/Tibia.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L/LowerFinger.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L/LowerThumb.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone/Bone_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R/LowerFinger.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R/LowerThumb.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head/Head_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Body|CubeAction.001
+      takeName: Body|CubeAction.001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L/Leg pole targe.L_end
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R/Leg pole targe.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L/Leg IK.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L/ToesControl.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L/LowerFoot.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R/Leg IK.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R/ToesControl.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R/LowerFoot.R_end
+        weight: 1
+      - path: Armature/Root/Lombar
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L/Tibia.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R/Tibia.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L/LowerFinger.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L/LowerThumb.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone/Bone_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R/LowerFinger.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R/LowerThumb.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head/Head_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Body|walking.001
+      takeName: Body|walking.001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L
+        weight: 1
+      - path: Armature/Root/Leg pole targe.L/Leg pole targe.L_end
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R
+        weight: 1
+      - path: Armature/Root/Leg pole targe.R/Leg pole targe.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/FootRoll.L/Leg IK.L/Leg IK.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/ToesControl.L/ToesControl.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L
+        weight: 1
+      - path: Armature/Root/LegControl.L/UpperFoot.L/LowerFoot.L/LowerFoot.L_end
+        weight: 1
+      - path: Armature/Root/LegControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/FootRoll.R/Leg IK.R/Leg IK.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/ToesControl.R/ToesControl.R_end
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R
+        weight: 1
+      - path: Armature/Root/LegControl.R/UpperFoot.R/LowerFoot.R/LowerFoot.R_end
+        weight: 1
+      - path: Armature/Root/Lombar
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.L/Tibia.L/Tibia.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R
+        weight: 1
+      - path: Armature/Root/Lombar/Femur.R/Tibia.R/Tibia.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperFinger.L/LowerFinger.L/LowerFinger.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.L/Radius.L/Hand.L/UpperThumb.L/LowerThumb.L/LowerThumb.L_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/Bone/Bone_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperFinger.R/LowerFinger.R/LowerFinger.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Humerus.R/Radius.R/Hand.R/UpperThumb.R/LowerThumb.R/LowerThumb.R_end
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head
+        weight: 1
+      - path: Armature/Root/Lombar/Thoracic/Neck/Head/Head_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
