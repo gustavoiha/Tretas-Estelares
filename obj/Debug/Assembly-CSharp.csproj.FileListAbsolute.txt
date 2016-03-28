@@ -20,3 +20,24 @@ D:\Unity Projects\Star Wars\obj\Debug\Assembly-CSharp.csprojResolveAssemblyRefer
 D:\Unity Projects\Star Wars\obj\Debug\Assembly-CSharp.dll
 D:\Unity Projects\Star Wars\obj\Debug\Assembly-CSharp.pdb
 D:\Unity Projects\Star Wars\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+D:\UnityProjects\Tretas-Estelares\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+D:\UnityProjects\Tretas-Estelares\obj\Debug\Assembly-CSharp.dll
+D:\UnityProjects\Tretas-Estelares\Temp\bin\Debug\Assembly-CSharp.dll
+D:\UnityProjects\Tretas-Estelares\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\UnityProjects\Tretas-Estelares\Temp\bin\Debug\UnityEditor.dll
+D:\UnityProjects\Tretas-Estelares\Temp\bin\Debug\UnityEngine.dll
+D:\UnityProjects\Tretas-Estelares\Temp\bin\Debug\UnityEngine.Networking.dll
+D:\UnityProjects\Tretas-Estelares\Temp\bin\Debug\UnityEngine.UI.dll
+D:\UnityProjects\Tretas-Estelares\Temp\bin\Debug\Mono.Cecil.dll
+D:\UnityProjects\Tretas-Estelares\Temp\bin\Debug\Unity.SerializationLogic.dll
+D:\UnityProjects\Tretas-Estelares\Temp\bin\Debug\Unity.DataContract.dll
+D:\UnityProjects\Tretas-Estelares\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+D:\UnityProjects\Tretas-Estelares\Temp\bin\Debug\Unity.UNetWeaver.dll
+D:\UnityProjects\Tretas-Estelares\Temp\bin\Debug\Unity.CecilTools.dll
+D:\UnityProjects\Tretas-Estelares\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+D:\UnityProjects\Tretas-Estelares\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+D:\UnityProjects\Tretas-Estelares\Temp\bin\Debug\UnityEngine.xml
+D:\UnityProjects\Tretas-Estelares\Temp\bin\Debug\UnityEditor.xml
+D:\UnityProjects\Tretas-Estelares\Temp\bin\Debug\UnityEngine.UI.xml
+D:\UnityProjects\Tretas-Estelares\Temp\bin\Debug\UnityEngine.Networking.xml
+D:\UnityProjects\Tretas-Estelares\obj\Debug\Assembly-CSharp.pdb
