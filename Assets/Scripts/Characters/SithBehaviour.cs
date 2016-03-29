@@ -15,20 +15,6 @@ public class SithBehaviour : MonoBehaviour {
 
 	private Animator animator;
 	private Rigidbody rigidBody;
-	private Transform camera;
-
-	// Height of the center of the camera's rotation (for example, the player body's center
-	public float CameraPivot = 2.5f;
-
-	public float CameraAngle = 35.0f;
-	public float CameraLookAngle = 10.0f;
-
-	// Camera rotation limits. Upper limit should be positive, and Lower limit should be negative!
-	public float CameraAngleLimitUpper = 85.0f;
-	public float CameraAngleLimitLower = -10.0f;
-
-	// Camera's distance from Pivot
-	public float CameraDistance = 9.5f;
 
 	public float moveSpeedFoward = 6.0f;
 	public float moveSpeedSides  = 6.0f;
@@ -45,7 +31,6 @@ public class SithBehaviour : MonoBehaviour {
 	void Start () {
 		animator  = gameObject.GetComponentInChildren<Animator> ();
 		rigidBody = gameObject.GetComponent<Rigidbody> ();
-		camera    = GameObject.FindGameObjectWithTag ("MainCamera").transform;
 	}
 	
 	// Update is called once per frame
@@ -69,7 +54,6 @@ public class SithBehaviour : MonoBehaviour {
 
 		doTranslation ();
 		doRotation ();
-		updateCameraCoordinates ();
 	}
 
 	private void doTranslation(){
@@ -97,31 +81,6 @@ public class SithBehaviour : MonoBehaviour {
 
 		transform.rotation = quaternion;
 		transform.Rotate (0, turnX * turnSpeedX * Time.deltaTime, 0);
-	}
-
-	private void updateCameraCoordinates(){
-		
-		float turnY = Input.GetAxis ("Mouse Y") * Mathf.Sign(mouseInvertY) + Input.GetAxis ("VerticalRotation");
-
-		float camPosY = CameraPivot + CameraDistance * Mathf.Sin(camera.rotation.eulerAngles.x * Mathf.Deg2Rad) * Mathf.Cos(camera.rotation.eulerAngles.z * Mathf.Deg2Rad);
-		float camPosZ = -CameraDistance * Mathf.Cos(camera.rotation.eulerAngles.x * Mathf.Deg2Rad) * Mathf.Cos(camera.rotation.eulerAngles.z * Mathf.Deg2Rad);;
-
-		camera.Rotate (turnY * turnSpeedY * Time.deltaTime, 0, 0);
-		camera.localPosition = new Vector3 (0, camPosY, camPosZ);
-
-		Debug.Log (camera.localRotation.eulerAngles);
-
-		// Angle to limit the camera's rotation
-		float newCamAngleX;
-
-		if (camera.rotation.eulerAngles.x <= 180)
-			newCamAngleX = Mathf.Min (camera.localRotation.eulerAngles.x, CameraAngleLimitUpper);
-		else
-			newCamAngleX = Mathf.Max (camera.localRotation.eulerAngles.x, 360+CameraAngleLimitLower);
-
-		Quaternion quaternion = new Quaternion ();
-		quaternion.eulerAngles = new Vector3 (newCamAngleX, 0, 0);
-		camera.localRotation = quaternion;
 	}
 
 	// returns true if player is in walking or running animation
