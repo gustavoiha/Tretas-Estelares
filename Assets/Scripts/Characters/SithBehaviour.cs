@@ -3,9 +3,7 @@ using System.Collections;
 
 /**
 *
-* Observation: currently, this file animates the Sith character and lets the gamer play with it (walk, turn and draw Saber)
-* In the future, this script will be called PlayerBehaviour and will animate the Jedi
-* A whole new script will be made for the Sith, which will move by itself
+* Observation: currently, this file animates the Player character and lets the gamer play with it (walk, turn and draw Saber)
 *
 **/
 
@@ -47,6 +45,9 @@ public class SithBehaviour : MonoBehaviour {
 		if (Input.GetKeyUp("w")){
 			animator.SetInteger ("AnimParam", 0);
 		}
+		//else if (Input.GetKeyUp("s"){
+			// walk backwards
+		//}
 
 		if (Input.GetKeyDown ("w")/* && !isDrawingSaber*/) {
 			animator.SetInteger ("AnimParam", 1);
